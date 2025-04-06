@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CTA Component renders with custom props correctly 1`] = `
+<div>
+  <section
+    class="bg-primary py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8 max-w-3xl text-center"
+    >
+      <h2
+        class="text-2xl md:text-3xl font-bold text-black mb-4"
+      >
+        Custom CTA Heading
+      </h2>
+      <p
+        class="text-black text-lg mb-8"
+      >
+        Custom CTA Subheading
+      </p>
+      <a
+        class="inline-block bg-secondary text-white font-bold px-6 py-3 rounded-lg hover:bg-secondary-light transition-colors duration-300 hover:shadow-lg"
+        data-testid="mock-link"
+        href="/custom-link"
+      >
+        Custom Button Text
+      </a>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`CTA Component renders with default props correctly 1`] = `
+<div>
+  <section
+    class="bg-primary py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8 max-w-3xl text-center"
+    >
+      <h2
+        class="text-2xl md:text-3xl font-bold text-black mb-4"
+      >
+        Ready to Transform Your Development Process?
+      </h2>
+      <p
+        class="text-black text-lg mb-8"
+      >
+        Start using AI-Mapping today and experience the power of AI-driven frontend development.
+      </p>
+      <a
+        class="inline-block bg-secondary text-white font-bold px-6 py-3 rounded-lg hover:bg-secondary-light transition-colors duration-300 hover:shadow-lg"
+        data-testid="mock-link"
+        href="/documentation"
+      >
+        Get Started
+      </a>
+    </div>
+  </section>
+</div>
+`;

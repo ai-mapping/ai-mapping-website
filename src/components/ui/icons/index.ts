@@ -1,0 +1,16 @@
+export { default as CheckmarkIcon } from './CheckmarkIcon';
+export { default as ChevronIcon } from './ChevronIcon';
+export { default as ClockIcon } from './ClockIcon';
+export { default as EmailIcon } from './EmailIcon';
+export { default as FastDeliveryIcon } from './FastDeliveryIcon';
+export { default as LocationIcon } from './LocationIcon';
+export { default as MenuIcon } from './MenuIcon';
+export { default as PhoneIcon } from './PhoneIcon';
+export { default as PriceIcon } from './PriceIcon';
+export { default as QualityIcon } from './QualityIcon';
+export { default as SearchIcon } from './SearchIcon';
+export { default as ShareIcon } from './ShareIcon';
+export { default as ShieldIcon } from './ShieldIcon';
+export { default as TelegramIcon } from './TelegramIcon';
+export { default as WhatsAppIcon } from './WhatsAppIcon';
+export { default as YoutubeIcon } from './YoutubeIcon';

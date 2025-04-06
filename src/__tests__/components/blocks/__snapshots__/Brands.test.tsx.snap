@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Brands Component renders with custom props correctly 1`] = `
+<div>
+  <section
+    class="bg-surface py-10"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <h2
+        class="text-2xl md:text-3xl font-semibold text-center mb-10 text-white"
+      >
+        Custom Brands Heading
+      </h2>
+      <div
+        class="flex flex-wrap justify-center items-center gap-8 mb-8"
+      >
+        <div
+          class="w-1/3 md:w-auto"
+        >
+          <a
+            class="block transition-all duration-300 hover:scale-105 hover:shadow-lg"
+            data-testid="next-link"
+            href="/custom-link"
+            title="View details for Custom Brand"
+          >
+            <div
+              class="bg-neutral-light p-2 rounded-lg flex items-center justify-center h-20 md:h-24 md:w-48 border border-neutral-dark shadow-md"
+            >
+              <img
+                alt="Custom brand logo"
+                class="h-auto max-h-full w-auto"
+                data-testid="next-image-Custom brand logo"
+                height="60"
+                src="/custom-logo.png"
+                width="120"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="flex flex-wrap justify-center items-center gap-6 md:gap-8 my-6"
+      >
+        <div
+          class="w-1/4 md:w-auto"
+        >
+          <a
+            class="block transition-all duration-300 hover:scale-105 hover:shadow-md"
+            data-testid="next-link"
+            href="/small-custom-link"
+            title="View details for Small Custom Brand"
+          >
+            <div
+              class="bg-neutral-light p-3 rounded-lg flex items-center justify-center h-16 md:h-16 md:w-32 border border-neutral-dark shadow-sm"
+            >
+              <img
+                alt="Small custom brand logo"
+                class="h-auto max-h-full w-auto"
+                data-testid="next-image-Small custom brand logo"
+                height="30"
+                src="/small-custom-logo.png"
+                width="80"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Brands Component renders with default props correctly 1`] = `
+<div>
+  <section
+    class="bg-surface py-10"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <h2
+        class="text-2xl md:text-3xl font-semibold text-center mb-10 text-white"
+      >
+        Compatible with Leading Frontend Frameworks
+      </h2>
+      <div
+        class="flex flex-wrap justify-center items-center gap-8 mb-8"
+      >
+        <div
+          class="w-1/3 md:w-auto"
+        >
+          <a
+            class="block transition-all duration-300 hover:scale-105 hover:shadow-lg"
+            data-testid="next-link"
+            href="/frameworks/react"
+            title="View details for React"
+          >
+            <div
+              class="bg-neutral-light p-2 rounded-lg flex items-center justify-center h-20 md:h-24 md:w-48 border border-neutral-dark shadow-md"
+            >
+              <img
+                alt="React logo"
+                class="h-auto max-h-full w-auto"
+                data-testid="next-image-React logo"
+                height="70"
+                src="/images/placeholders/react-logo.svg"
+                width="120"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="w-1/3 md:w-auto"
+        >
+          <a
+            class="block transition-all duration-300 hover:scale-105 hover:shadow-lg"
+            data-testid="next-link"
+            href="/frameworks/nextjs"
+            title="View details for Next.js"
+          >
+            <div
+              class="bg-neutral-light p-2 rounded-lg flex items-center justify-center h-20 md:h-24 md:w-48 border border-neutral-dark shadow-md"
+            >
+              <img
+                alt="Next.js logo"
+                class="h-auto max-h-full w-auto"
+                data-testid="next-image-Next.js logo"
+                height="80"
+                src="/images/placeholders/nextjs-logo.png"
+                width="120"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="flex flex-wrap justify-center items-center gap-6 md:gap-8 my-6"
+      >
+        <div
+          class="w-1/4 md:w-auto"
+        >
+          <a
+            class="block transition-all duration-300 hover:scale-105 hover:shadow-md"
+            data-testid="next-link"
+            href="/tools/tailwind"
+            title="View details for Tailwind CSS"
+          >
+            <div
+              class="bg-neutral-light p-3 rounded-lg flex items-center justify-center h-16 md:h-16 md:w-32 border border-neutral-dark shadow-sm"
+            >
+              <img
+                alt="Tailwind CSS logo"
+                class="h-auto max-h-full w-auto"
+                data-testid="next-image-Tailwind CSS logo"
+                height="40"
+                src="/images/placeholders/tailwind-logo.svg"
+                width="80"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="w-1/4 md:w-auto"
+        >
+          <a
+            class="block transition-all duration-300 hover:scale-105 hover:shadow-md"
+            data-testid="next-link"
+            href="/tools/typescript"
+            title="View details for TypeScript"
+          >
+            <div
+              class="bg-neutral-light p-3 rounded-lg flex items-center justify-center h-16 md:h-16 md:w-32 border border-neutral-dark shadow-sm"
+            >
+              <img
+                alt="TypeScript logo"
+                class="h-auto max-h-full w-auto"
+                data-testid="next-image-TypeScript logo"
+                height="40"
+                src="/images/placeholders/typescript-logo.svg"
+                width="80"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="w-1/4 md:w-auto"
+        >
+          <a
+            class="block transition-all duration-300 hover:scale-105 hover:shadow-md"
+            data-testid="next-link"
+            href="/frameworks/gatsby"
+            title="View details for Gatsby"
+          >
+            <div
+              class="bg-neutral-light p-3 rounded-lg flex items-center justify-center h-16 md:h-16 md:w-32 border border-neutral-dark shadow-sm"
+            >
+              <img
+                alt="Gatsby logo"
+                class="h-auto max-h-full w-auto"
+                data-testid="next-image-Gatsby logo"
+                height="40"
+                src="/images/placeholders/gatsby-logo.svg"
+                width="80"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="w-1/4 md:w-auto"
+        >
+          <a
+            class="block transition-all duration-300 hover:scale-105 hover:shadow-md"
+            data-testid="next-link"
+            href="/frameworks/remix"
+            title="View details for Remix"
+          >
+            <div
+              class="bg-neutral-light p-3 rounded-lg flex items-center justify-center h-16 md:h-16 md:w-32 border border-neutral-dark shadow-sm"
+            >
+              <img
+                alt="Remix logo"
+                class="h-auto max-h-full w-auto"
+                data-testid="next-image-Remix logo"
+                height="40"
+                src="/images/placeholders/remix-logo.svg"
+                width="80"
+              />
+            </div>
+          </a>
+        </div>
+        <div
+          class="w-1/4 md:w-auto"
+        >
+          <a
+            class="block transition-all duration-300 hover:scale-105 hover:shadow-md"
+            data-testid="next-link"
+            href="/frameworks/astro"
+            title="View details for Astro"
+          >
+            <div
+              class="bg-neutral-light p-3 rounded-lg flex items-center justify-center h-16 md:h-16 md:w-32 border border-neutral-dark shadow-sm"
+            >
+              <img
+                alt="Astro logo"
+                class="h-auto max-h-full w-auto"
+                data-testid="next-image-Astro logo"
+                height="40"
+                src="/images/placeholders/astro-logo.svg"
+                width="80"
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

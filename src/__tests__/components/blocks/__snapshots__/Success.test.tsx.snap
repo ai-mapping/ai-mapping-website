@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Success Component renders with custom props correctly 1`] = `
+<div>
+  <section
+    class="bg-background py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <h2
+        class="text-2xl md:text-3xl font-semibold text-center mb-3 text-white"
+      >
+        Custom Success Heading
+      </h2>
+      <p
+        class="text-neutral text-center mb-10 max-w-2xl mx-auto"
+      >
+        Custom Success Subheading
+      </p>
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 gap-8"
+      >
+        <div
+          data-testid="success-card-custom-1"
+        >
+          <h3>
+            Custom Case Study
+          </h3>
+          <div>
+            Custom Delivery Time
+          </div>
+          <p>
+            Custom Description
+          </p>
+          <img
+            alt="Custom Image Alt"
+            height="150"
+            src="/custom-image.jpg"
+            width="300"
+          />
+          <button>
+            Custom Button Text
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Success Component renders with default props correctly 1`] = `
+<div>
+  <section
+    class="bg-background py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <h2
+        class="text-2xl md:text-3xl font-semibold text-center mb-3 text-white"
+      >
+        Примеры успешных поставок
+      </h2>
+      <p
+        class="text-neutral text-center mb-10 max-w-2xl mx-auto"
+      >
+        Реальные кейсы доставки запчастей нашим клиентам
+      </p>
+      <div
+        class="grid grid-cols-1 md:grid-cols-3 gap-8"
+      >
+        <div
+          data-testid="success-card-1"
+        >
+          <h3>
+            Гидроцилиндр для CAT 320D
+          </h3>
+          <div>
+            Доставлено за 9 дней
+          </div>
+          <p>
+            Клиент из Подмосковья искал гидроцилиндр для экскаватора CAT 320D. Официальные дилеры называли срок от 2-х месяцев.
+          </p>
+          <img
+            alt="Гидроцилиндр CAT 320D"
+            height="192"
+            src="https://via.placeholder.com/600x400"
+            width="400"
+          />
+          <button>
+            Заказать такой же
+          </button>
+        </div>
+        <div
+          data-testid="success-card-2"
+        >
+          <h3>
+            Турбина для KOMATSU PC300
+          </h3>
+          <div>
+            Доставлено за 12 дней
+          </div>
+          <p>
+            Строительная компания из Москвы срочно нуждалась в турбине для экскаватора, который простаивал более месяца.
+          </p>
+          <img
+            alt="Турбина KOMATSU PC300"
+            height="192"
+            src="https://via.placeholder.com/600x400"
+            width="400"
+          />
+          <button>
+            Заказать такой же
+          </button>
+        </div>
+        <div
+          data-testid="success-card-3"
+        >
+          <h3>
+            Блок управления CAT D6R
+          </h3>
+          <div>
+            Доставлено за 11 дней
+          </div>
+          <p>
+            Редкий электронный блок управления для бульдозера CAT D6R. Клиент не мог найти его у других поставщиков.
+          </p>
+          <img
+            alt="Блок управления CAT D6R"
+            height="192"
+            src="https://via.placeholder.com/600x400"
+            width="400"
+          />
+          <button>
+            Заказать такой же
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

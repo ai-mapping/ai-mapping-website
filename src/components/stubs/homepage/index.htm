@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Запчасти Caterpillar и KOMATSU - экспресс-доставка в условиях санкций</title>
+  <meta name="description"
+    content="Экспресс-доставка запчастей для Caterpillar и KOMATSU в условиях санкций. Спасаем простаивающую технику, доставляем редкие запчасти из Китая за 7-14 дней.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FFDE00',
+            secondary: '#212121',
+            accent: '#1E6BB8',
+            background: '#F5F5F5',
+            dark: '#444444',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-sans text-secondary bg-white">
+  <!-- Header Component -->
+  <header class="sticky top-0 z-50 bg-white shadow-md">
+    <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center">
+        <a href="/" class="flex items-center">
+          <div class="w-10 h-10 bg-primary flex items-center justify-center rounded-md mr-2">
+            <span class="text-secondary font-bold text-lg">CAT</span>
+          </div>
+          <span class="font-bold text-xl">CatParts</span>
+        </a>
+
+        <nav class="hidden md:flex ml-10">
+          <ul class="flex space-x-6">
+            <li><a href="/catalog" class="text-dark hover:text-accent transition">Каталог</a></li>
+            <li><a href="/brands" class="text-dark hover:text-accent transition">Бренды</a></li>
+            <li><a href="/delivery" class="text-dark hover:text-accent transition">Экспресс-доставка</a></li>
+            <li><a href="/about" class="text-dark hover:text-accent transition">О компании</a></li>
+            <li><a href="/contacts" class="text-dark hover:text-accent transition">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="flex items-center space-x-4">
+        <a href="tel:+74951234567" class="hidden md:flex items-center text-secondary font-medium">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          </svg>
+          +7 (495) 123-45-67
+        </a>
+
+        <div class="hidden md:flex space-x-2">
+          <a href="https://wa.me/79991234567" class="text-green-600 p-1 rounded hover:bg-green-100 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+          </a>
+          <a href="https://t.me/catparts" class="text-blue-500 p-1 rounded hover:bg-blue-100 transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+            </svg>
+          </a>
+        </div>
+
+        <button class="bg-primary py-2 px-4 rounded text-secondary font-medium hover:bg-yellow-400 transition">
+          Заказать звонок
+        </button>
+
+        <button class="md:hidden text-secondary">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with Order Form -->
+  <section class="bg-background py-12 md:py-16 relative overflow-hidden">
+    <div class="absolute inset-0 opacity-10 z-0">
+      <img src="https://via.placeholder.com/1600x800" alt="Caterpillar техника фон" class="w-full h-full object-cover">
+    </div>
+
+    <div class="container mx-auto px-4 relative z-10">
+      <div class="flex flex-col md:flex-row">
+        <div class="md:w-7/12 mb-10 md:mb-0">
+          <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight text-secondary mb-4">
+            Экспресс-доставка запчастей Caterpillar и KOMATSU в условиях санкций
+          </h1>
+
+          <h2 class="text-xl md:text-2xl text-dark mb-6">
+            Спасаем простаивающую технику. Доставляем редкие запчасти из Китая за 7-14 дней.
+          </h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <div class="bg-white p-4 rounded-lg shadow-sm">
+              <div class="text-primary mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 class="font-medium text-lg mb-1">Быстрая доставка</h3>
+              <p class="text-dark text-sm">7-14 дней вместо 1-3 месяцев ожидания</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-sm">
+              <div class="text-primary mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+              <h3 class="font-medium text-lg mb-1">Качественные аналоги</h3>
+              <p class="text-dark text-sm">Надежные запчасти, сравнимые с оригиналами</p>
+            </div>
+
+            <div class="bg-white p-4 rounded-lg shadow-sm">
+              <div class="text-primary mb-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              </div>
+              <h3 class="font-medium text-lg mb-1">Поиск редких деталей</h3>
+              <p class="text-dark text-sm">Найдем даже самые труднодоступные запчасти</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:w-5/12 md:pl-8">
+          <div class="bg-white p-6 rounded-lg shadow-lg sticky top-24">
+            <h3 class="text-xl font-semibold mb-4">Найти запчасть</h3>
+
+            <form class="space-y-4">
+              <div>
+                <label class="block text-sm font-medium text-dark mb-1">Артикул или название запчасти</label>
+                <input type="text" placeholder="Например: 1234567 или гидроцилиндр"
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium text-dark mb-1">Модель техники</label>
+                <input type="text" placeholder="Например: CAT 320D"
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+              </div>
+
+              <div>
+                <label class="block text-sm font-medium text-dark mb-1">Ваш телефон</label>
+                <input type="tel" placeholder="+7 (___) ___-__-__"
+                  class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+              </div>
+
+              <div>
+                <label class="flex items-center">
+                  <input type="checkbox" class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded">
+                  <span class="ml-2 text-sm text-dark">Прикрепить фото детали</span>
+                </label>
+              </div>
+
+              <button type="submit"
+                class="w-full bg-primary py-3 px-4 rounded font-medium text-secondary hover:bg-yellow-400 transition">
+                Найти запчасть
+              </button>
+
+              <p class="text-xs text-dark text-center">
+                Нажимая кнопку, вы соглашаетесь с <a href="#" class="text-accent hover:underline">политикой
+                  конфиденциальности</a>
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <div class="bg-white p-4 rounded-lg shadow-md overflow-hidden">
+          <div class="aspect-w-16 aspect-h-9 bg-gray-200">
+            <!-- Placeholder for map of Moscow service area -->
+            <div class="w-full h-56 bg-gray-300 flex items-center justify-center">
+              <span class="text-dark">Карта обслуживания Москва и область</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Brands Block -->
+  <section class="py-10 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold text-center mb-8">Запчасти для техники ведущих брендов</h2>
+
+      <div class="flex flex-wrap justify-center items-center gap-8 mb-6">
+        <div class="w-1/3 md:w-auto">
+          <div class="bg-background p-4 rounded-lg flex items-center justify-center h-20 md:h-24 md:w-48">
+            <span class="text-2xl font-bold text-secondary">CATERPILLAR</span>
+          </div>
+        </div>
+
+        <div class="w-1/3 md:w-auto">
+          <div class="bg-background p-4 rounded-lg flex items-center justify-center h-20 md:h-24 md:w-48">
+            <span class="text-2xl font-bold text-secondary">KOMATSU</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-wrap justify-center items-center gap-4 md:gap-6">
+        <div class="w-1/4 md:w-auto">
+          <div class="bg-background p-3 rounded-lg flex items-center justify-center h-16 md:h-16 md:w-32">
+            <span class="text-lg font-medium text-dark">ZF</span>
+          </div>
+        </div>
+
+        <div class="w-1/4 md:w-auto">
+          <div class="bg-background p-3 rounded-lg flex items-center justify-center h-16 md:h-16 md:w-32">
+            <span class="text-lg font-medium text-dark">Bomag</span>
+          </div>
+        </div>
+
+        <div class="w-1/4 md:w-auto">
+          <div class="bg-background p-3 rounded-lg flex items-center justify-center h-16 md:h-16 md:w-32">
+            <span class="text-lg font-medium text-dark">Mobil</span>
+          </div>
+        </div>
+
+        <div class="w-1/4 md:w-auto">
+          <div class="bg-background p-3 rounded-lg flex items-center justify-center h-16 md:h-16 md:w-32">
+            <span class="text-lg font-medium text-dark">Hyva</span>
+          </div>
+        </div>
+
+        <div class="w-1/4 md:w-auto">
+          <div class="bg-background p-3 rounded-lg flex items-center justify-center h-16 md:h-16 md:w-32">
+            <span class="text-lg font-medium text-dark">FAG</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Examples Block -->
+  <section class="py-12 bg-background">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold text-center mb-2">Примеры успешных поставок</h2>
+      <p class="text-dark text-center mb-8">Реальные кейсы доставки запчастей нашим клиентам</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="h-48 bg-gray-200">
+            <img src="https://via.placeholder.com/600x400" alt="Гидроцилиндр CAT 320D"
+              class="w-full h-full object-cover">
+          </div>
+          <div class="p-4">
+            <h3 class="font-semibold text-lg mb-2">Гидроцилиндр для CAT 320D</h3>
+            <div class="flex items-center mb-2">
+              <span class="text-sm font-medium bg-green-100 text-green-800 px-2 py-1 rounded">Доставлено за 9
+                дней</span>
+            </div>
+            <p class="text-dark text-sm mb-4">Клиент из Подмосковья искал гидроцилиндр для экскаватора CAT 320D.
+              Официальные дилеры называли срок от 2-х месяцев.</p>
+            <button
+              class="w-full bg-primary py-2 rounded text-secondary font-medium hover:bg-yellow-400 transition">Заказать
+              такой же</button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="h-48 bg-gray-200">
+            <img src="https://via.placeholder.com/600x400" alt="Турбина KOMATSU PC300"
+              class="w-full h-full object-cover">
+          </div>
+          <div class="p-4">
+            <h3 class="font-semibold text-lg mb-2">Турбина для KOMATSU PC300</h3>
+            <div class="flex items-center mb-2">
+              <span class="text-sm font-medium bg-green-100 text-green-800 px-2 py-1 rounded">Доставлено за 12
+                дней</span>
+            </div>
+            <p class="text-dark text-sm mb-4">Строительная компания из Москвы срочно нуждалась в турбине для
+              экскаватора,
+              который простаивал более месяца.</p>
+            <button
+              class="w-full bg-primary py-2 rounded text-secondary font-medium hover:bg-yellow-400 transition">Заказать
+              такой же</button>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md overflow-hidden">
+          <div class="h-48 bg-gray-200">
+            <img src="https://via.placeholder.com/600x400" alt="Блок управления CAT D6R"
+              class="w-full h-full object-cover">
+          </div>
+          <div class="p-4">
+            <h3 class="font-semibold text-lg mb-2">Блок управления CAT D6R</h3>
+            <div class="flex items-center mb-2">
+              <span class="text-sm font-medium bg-green-100 text-green-800 px-2 py-1 rounded">Доставлено за 11
+                дней</span>
+            </div>
+            <p class="text-dark text-sm mb-4">Редкий электронный блок управления для бульдозера CAT D6R. Клиент не мог
+              найти его у других поставщиков.</p>
+            <button
+              class="w-full bg-primary py-2 rounded text-secondary font-medium hover:bg-yellow-400 transition">Заказать
+              такой же</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- In Stock Block -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold text-center mb-2">Сегодня на складе</h2>
+      <p class="text-dark text-center mb-8">Запчасти, доступные для быстрой отправки</p>
+
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-white">
+          <thead>
+            <tr class="bg-background text-secondary">
+              <th class="py-3 px-4 text-left font-semibold">Наименование</th>
+              <th class="py-3 px-4 text-left font-semibold">Артикул</th>
+              <th class="py-3 px-4 text-left font-semibold">Совместимость</th>
+              <th class="py-3 px-4 text-center font-semibold">Наличие</th>
+              <th class="py-3 px-4 text-center font-semibold">Действие</th>
+            </tr>
+            <tr>
+              <td class="py-3 px-4">Ремкомплект гидроцилиндра</td>
+              <td class="py-3 px-4 font-medium">7X-2208</td>
+              <td class="py-3 px-4">KOMATSU PC300-7</td>
+              <td class="py-3 px-4 text-center">
+                <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
+              </td>
+              <td class="py-3 px-4 text-center">
+                <button
+                  class="bg-primary py-1 px-3 rounded text-sm text-secondary font-medium hover:bg-yellow-400 transition">Заказать</button>
+              </td>
+            </tr>
+            </tbody>
+        </table>
+      </div>
+
+      <div class="text-center mt-6">
+        <a href="/catalog" class="text-accent font-medium hover:underline">Посмотреть все запчасти в наличии</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Advantages Block -->
+  <section class="py-12 bg-background">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl md:text-3xl font-semibold text-center mb-2">Наши преимущества</h2>
+      <p class="text-dark text-center mb-8">Почему клиенты выбирают нас</p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <div class="flex items-start">
+            <div class="text-primary mr-4 mt-1">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M11.933 12.8a1 1 0 000-1.6L6.6 7.2A1 1 0 005 8v8a1 1 0 001.6.8l5.333-4zM19.933 12.8a1 1 0 000-1.6l-5.333-4A1 1 0 0013 8v8a1 1 0 001.6.8l5.333-4z" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold mb-3">Экспресс-доставка в условиях санкций</h3>
+              <p class="text-dark mb-4">В то время как официальные дилеры ушли с рынка, мы создали эффективные каналы
+                доставки запчастей из Китая в короткие сроки.</p>
+              <ul class="text-dark space-y-2">
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>7-14 дней на доставку вместо 1-3 месяцев</span>
+                </li>
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Собственная сеть представителей в Китае</span>
+                </li>
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Прямые контакты с производителями</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <div class="flex items-start">
+            <div class="text-primary mr-4 mt-1">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold mb-3">Высокое качество неоригинальных запчастей</h3>
+              <p class="text-dark mb-4">Мы поставляем только качественные аналоги, которые сравнимы с оригинальными
+                запчастями по надежности и долговечности.</p>
+              <ul class="text-dark space-y-2">
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Строгий контроль качества на производстве</span>
+                </li>
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Соответствие техническим спецификациям</span>
+                </li>
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Экономия до 30-40% от стоимости оригинала</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <div class="flex items-start">
+            <div class="text-primary mr-4 mt-1">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold mb-3">Поиск и доставка редких запчастей</h3>
+              <p class="text-dark mb-4">Мы специализируемся на поиске редких и труднодоступных деталей, которые
+                невозможно
+                найти у других поставщиков.</p>
+              <ul class="text-dark space-y-2">
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Доступ к широкой сети производителей в Китае</span>
+                </li>
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Возможность изготовления под заказ</span>
+                </li>
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Решение нестандартных задач по поиску запчастей</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <div class="flex items-start">
+            <div class="text-primary mr-4 mt-1">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <div>
+              <h3 class="text-xl font-semibold mb-3">Ценовое преимущество</h3>
+              <p class="text-dark mb-4">Мы предлагаем конкурентные рыночные цены и оптимальное соотношение цена/качество
+                для представленных запчастей.</p>
+              <ul class="text-dark space-y-2">
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Экономия от 20% до 40% по сравнению с оригиналом</span>
+                </li>
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Скидки для постоянных клиентов и при крупных заказах</span>
+                </li>
+                <li class="flex items-start">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-primary mr-2 mt-0.5" fill="none"
+                    viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                  </svg>
+                  <span>Прозрачное ценообразование</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust Block -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="bg-background rounded-lg p-6 md:p-10">
+        <h2 class="text-2xl md:text-3xl font-semibold text-center mb-8">Нам доверяют</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div>
+            <div class="text-4xl font-bold text-secondary mb-2">5+ лет</div>
+            <p class="text-dark">опыта поставок запчастей из Китая</p>
+          </div>
+
+          <div>
+            <div class="text-4xl font-bold text-secondary mb-2">500+</div>
+            <p class="text-dark">успешных поставок запчастей</p>
+          </div>
+
+          <div>
+            <div class="text-4xl font-bold text-secondary mb-2">98%</div>
+            <p class="text-dark">довольных клиентов</p>
+          </div>
+        </div>
+
+        <div class="mt-10">
+          <h3 class="text-xl font-semibold text-center mb-4">Наши партнеры в Китае</h3>
+          <div class="flex flex-wrap justify-center items-center gap-8">
+            <div class="w-24 h-16 bg-white rounded flex items-center justify-center">
+              <span class="font-medium text-sm text-dark">Партнер 1</span>
+            </div>
+            <div class="w-24 h-16 bg-white rounded flex items-center justify-center">
+              <span class="font-medium text-sm text-dark">Партнер 2</span>
+            </div>
+            <div class="w-24 h-16 bg-white rounded flex items-center justify-center">
+              <span class="font-medium text-sm text-dark">Партнер 3</span>
+            </div>
+            <div class="w-24 h-16 bg-white rounded flex items-center justify-center">
+              <span class="font-medium text-sm text-dark">Партнер 4</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEO Text Block -->
+  <section class="py-12 bg-background">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-2xl font-semibold mb-4">Запчасти для техники Caterpillar и KOMATSU</h2>
+
+        <div class="prose prose-lg max-w-none text-dark mb-6">
+          <p>В условиях санкций и ухода официальных дилеров с российского рынка, поиск качественных запчастей для
+            спецтехники Caterpillar и KOMATSU стал серьезной проблемой для многих компаний. Простой дорогостоящей
+            техники
+            приводит к значительным финансовым потерям и срывам сроков выполнения работ.</p>
+
+          <p>Наша компания предлагает эффективное решение этой проблемы – экспресс-доставку запчастей из Китая в сжатые
+            сроки. Мы специализируемся на поставках качественных аналогов для всех моделей техники Caterpillar и
+            KOMATSU,
+            а также других ведущих производителей.</p>
+
+          <p>Благодаря налаженным связям с производителями в Китае и собственной логистической сети, мы обеспечиваем
+            поставку запчастей в Москву и Московскую область в течение 7-14 дней, что в разы быстрее, чем у большинства
+            конкурентов.</p>
+        </div>
+
+        <h3 class="text-xl font-semibold mb-3">Популярные модели техники Caterpillar:</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-6">
+          <a href="#" class="text-accent hover:underline">CAT 320D</a>
+          <a href="#" class="text-accent hover:underline">CAT 330D</a>
+          <a href="#" class="text-accent hover:underline">CAT 336D</a>
+          <a href="#" class="text-accent hover:underline">CAT 345D</a>
+          <a href="#" class="text-accent hover:underline">CAT D6R</a>
+          <a href="#" class="text-accent hover:underline">CAT D9R</a>
+          <a href="#" class="text-accent hover:underline">CAT 950H</a>
+          <a href="#" class="text-accent hover:underline">CAT 966H</a>
+        </div>
+
+        <h3 class="text-xl font-semibold mb-3">Популярные модели техники KOMATSU:</h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-6">
+          <a href="#" class="text-accent hover:underline">KOMATSU PC200</a>
+          <a href="#" class="text-accent hover:underline">KOMATSU PC300</a>
+          <a href="#" class="text-accent hover:underline">KOMATSU PC400</a>
+          <a href="#" class="text-accent hover:underline">KOMATSU D65</a>
+          <a href="#" class="text-accent hover:underline">KOMATSU D155</a>
+          <a href="#" class="text-accent hover:underline">KOMATSU WA470</a>
+          <a href="#" class="text-accent hover:underline">KOMATSU WA500</a>
+          <a href="#" class="text-accent hover:underline">KOMATSU HD785</a>
+        </div>
+
+        <p class="text-dark">Мы работаем как с частными компаниями, так и с крупными строительными корпорациями в Москве
+          и
+          Московской области. При необходимости организуем доставку в другие регионы России.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Block -->
+  <section class="py-12 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-2xl md:text-3xl font-semibold text-center mb-8">Часто задаваемые вопросы</h2>
+
+        <div class="space-y-4">
+          <div class="border border-gray-200 rounded-lg overflow-hidden">
+            <button class="flex justify-between items-center w-full px-6 py-4 text-left bg-background font-medium">
+              <span>Каковы сроки доставки запчастей из Китая?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-secondary" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="px-6 py-4 bg-white">
+              <p class="text-dark">Стандартный срок доставки запчастей составляет 7-14 дней. Точный срок зависит от
+                наличия детали у наших партнеров в Китае, сложности ее поиска и логистических особенностей. В экстренных
+                случаях возможна ускоренная доставка за дополнительную плату.</p>
+            </div>
+          </div>
+
+          <div class="border border-gray-200 rounded-lg overflow-hidden">
+            <button class="flex justify-between items-center w-full px-6 py-4 text-left bg-background font-medium">
+              <span>Насколько качественны аналоги запчастей?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-secondary" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="px-6 py-4 bg-white">
+              <p class="text-dark">Мы поставляем только качественные аналоги, произведенные на сертифицированных заводах
+                в
+                Китае. По своим техническим характеристикам и надежности они сопоставимы с оригинальными запчастями, при
+                этом стоят значительно дешевле. На все запчасти предоставляется гарантия.</p>
+            </div>
+          </div>
+
+          <div class="border border-gray-200 rounded-lg overflow-hidden">
+            <button class="flex justify-between items-center w-full px-6 py-4 text-left bg-background font-medium">
+              <span>Какие способы оплаты вы принимаете?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-secondary" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="px-6 py-4 bg-white">
+              <p class="text-dark">Мы работаем как с наличным, так и с безналичным расчетом. Для юридических лиц
+                доступна
+                оплата по счету с НДС. Обычно мы работаем по предоплате 50%, остаток – перед отгрузкой товара. Для
+                постоянных клиентов возможны индивидуальные условия оплаты.</p>
+            </div>
+          </div>
+
+          <div class="border border-gray-200 rounded-lg overflow-hidden">
+            <button class="flex justify-between items-center w-full px-6 py-4 text-left bg-background font-medium">
+              <span>Что делать, если нужна очень редкая запчасть?</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-secondary" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="px-6 py-4 bg-white">
+              <p class="text-dark">Мы специализируемся на поиске редких и труднодоступных деталей. Наши партнеры в Китае
+                имеют доступ к широкой сети производителей и складов. Даже если запчасть отсутствует в наличии, во
+                многих
+                случаях возможно её изготовление под заказ. Для таких случаев мы рекомендуем предоставить нам максимум
+                информации о детали, включая фото, артикул и модель техники.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-8">
+          <button class="bg-primary py-3 px-6 rounded font-medium text-secondary hover:bg-yellow-400 transition">
+            Задать свой вопрос
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Block -->
+  <section class="py-12 bg-primary">
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-2xl md:text-3xl font-bold text-secondary mb-4">Не позволяйте технике простаивать!</h2>
+        <p class="text-secondary text-lg mb-8">Закажите запчасти прямо сейчас и вернитесь к работе в кратчайшие сроки.
+        </p>
+
+        <div class="bg-white p-6 rounded-lg shadow-lg max-w-md mx-auto">
+          <form class="space-y-4">
+            <div>
+              <input type="text" placeholder="Артикул или название запчасти"
+                class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+            </div>
+
+            <div>
+              <input type="tel" placeholder="Ваш телефон"
+                class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">
+            </div>
+
+            <div>
+              <label class="flex items-center">
+                <input type="checkbox" class="h-4 w-4 text-primary focus:ring-primary border-gray-300 rounded">
+                <span class="ml-2 text-sm text-dark">Перезвоните мне в течение 30 минут</span>
+              </label>
+            </div>
+
+            <button type="submit"
+              class="w-full bg-secondary py-3 px-4 rounded font-medium text-white hover:bg-gray-800 transition">
+              Отправить запрос
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Regional Block - Moscow -->
+  <section class="py-12 bg-background">
+    <div class="container mx-auto px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-2xl font-semibold mb-4">Доставка запчастей Caterpillar в Москве и области</h2>
+
+        <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+          <div class="prose prose-lg max-w-none text-dark">
+            <p>Мы обеспечиваем быструю доставку запчастей Caterpillar и KOMATSU по Москве и Московской области. При
+              наличии запчастей на нашем складе, возможна доставка в день заказа или на следующий день.</p>
+
+            <p>Для компаний из Москвы и области мы предлагаем дополнительные преимущества:</p>
+
+            <ul>
+              <li>Бесплатная курьерская доставка при заказе от 50 000 рублей</li>
+              <li>Возможность самовывоза со склада в Москве</li>
+              <li>Выезд технического специалиста для консультации и диагностики (по договоренности)</li>
+              <li>Возможность оперативной доставки срочных заказов</li>
+            </ul>
+
+            <p>Наш офис находится в Москве, что позволяет нам оперативно решать все вопросы, связанные с поставками
+              запчастей для клиентов из столичного региона.</p>
+            </thead>
+            <tbody class="divide-y divide-gray-200">
+              <tr>
+                <td class="py-3 px-4">Фильтр топливный</td>
+                <td class="py-3 px-4 font-medium">1R-0751</td>
+                <td class="py-3 px-4">CAT 320D, 330D</td>
+                <td class="py-3 px-4 text-center">
+                  <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
+                </td>
+                <td class="py-3 px-4 text-center">
+                  <button
+                    class="bg-primary py-1 px-3 rounded text-sm text-secondary font-medium hover:bg-yellow-400 transition">Заказать</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4">Фильтр масляный</td>
+                <td class="py-3 px-4 font-medium">1R-1808</td>
+                <td class="py-3 px-4">CAT 320D, 324D</td>
+                <td class="py-3 px-4 text-center">
+                  <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
+                </td>
+                <td class="py-3 px-4 text-center">
+                  <button
+                    class="bg-primary py-1 px-3 rounded text-sm text-secondary font-medium hover:bg-yellow-400 transition">Заказать</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4">Гидравлический насос</td>
+                <td class="py-3 px-4 font-medium">312-8298</td>
+                <td class="py-3 px-4">CAT 320C</td>
+                <td class="py-3 px-4 text-center">
+                  <span class="inline-block w-3 h-3 bg-yellow-500 rounded-full"></span>
+                </td>
+                <td class="py-3 px-4 text-center">
+                  <button
+                    class="bg-primary py-1 px-3 rounded text-sm text-secondary font-medium hover:bg-yellow-400 transition">Заказать</button>
+                </td>
+              </tr>
+              <tr>
+                <td class="py-3 px-4">Форсунка топливная</td>
+                <td class="py-3 px-4 font-medium">326-4700</td>
+                <td class="py-3 px-4">CAT C6.6, C7.1</td>
+                <td class="py-3 px-4 text-center">
+                  <span class="inline-block w-3 h-3 bg-green-500 rounded-full"></span>
+                </td>
+                <td class="py-3 px-4 text-center">
+                  <button
+                    class="bg-primary py-1 px-3 rounded text-sm text-secondary font-medium hover:bg-yellow-400 transition">Заказать</button>
+                </td>
+              </tr>
+            </tbody>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-secondary text-white pt-12 pb-6">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div>
+          <h3 class="text-xl font-semibold mb-4">О компании</h3>
+          <p class="text-gray-300 mb-4">Поставка запчастей для техники Caterpillar и KOMATSU из Китая в условиях
+            санкций. Экспресс-доставка 7-14 дней.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-white hover:text-primary transition">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M21.95 5.05l-3-3a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l1.72-1.72v10.88h-10.88l1.72-1.72a.75.75 0 10-1.06-1.06l-3 3a.75.75 0 000 1.06l3 3a.75.75 0 001.06-1.06l-1.72-1.72h10.88v-10.88l1.72 1.72a.75.75 0 001.06 0 .75.75 0 000-1.06z" />
+              </svg>
+            </a>
+            <a href="#" class="text-white hover:text-primary transition">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M21.885 7.37c0-.86-.018-1.722-.09-2.58a5.36 5.36 0 00-1.273-3.11 5.36 5.36 0 00-3.11-1.273c-.857-.072-1.72-.09-2.582-.09h-5.66c-.862 0-1.725.018-2.582.09a5.36 5.36 0 00-3.11 1.273 5.36 5.36 0 00-1.272 3.11c-.072.858-.09 1.72-.09 2.58v5.66c0 .861.018 1.724.09 2.582a5.36 5.36 0 001.273 3.11 5.36 5.36 0 003.11 1.272c.857.072 1.72.09 2.581.09h5.66c.862 0 1.725-.018 2.582-.09a5.36 5.36 0 003.11-1.272 5.36 5.36 0 001.273-3.11c.072-.858.09-1.721.09-2.582v-5.66zM15.16 12l-4.5 2.25v-4.5l4.5 2.25z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Каталог</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-300 hover:text-primary transition">Запчасти для Caterpillar</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-primary transition">Запчасти для KOMATSU</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-primary transition">Двигатели и компоненты</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-primary transition">Гидравлическая система</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-primary transition">Ходовая часть</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Информация</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-300 hover:text-primary transition">О компании</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-primary transition">Доставка и оплата</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-primary transition">Гарантии</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-primary transition">Часто задаваемые вопросы</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-primary transition">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="text-xl font-semibold mb-4">Контакты</h3>
+          <ul class="space-y-4">
+            <li class="flex items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-0.5 mr-2 text-primary" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              <span class="text-gray-300">г. Москва, ул. Примерная, д. 123</span>
+            </li>
+            <li class="flex items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-0.5 mr-2 text-primary" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+              </svg>
+              <span class="text-gray-300">+7 (495) 123-45-67</span>
+            </li>
+            <li class="flex items-start">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mt-0.5 mr-2 text-primary" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+              </svg>
+              <span class="text-gray-300">info@catparts.ru</span>
+            </li>
+            <li class="flex items-center space-x-2">
+              <a href="#" class="text-gray-300 hover:text-primary transition">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                </svg>
+              </a>
+              <a href="#" class="text-gray-300 hover:text-primary transition">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                  <path
+                    d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-gray-700 pt-6">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+          <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2025 CatParts. Все права защищены.</p>
+          <div class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
+            <a href="#" class="text-gray-400 text-sm hover:text-primary transition">Политика конфиденциальности</a>
+            <a href="#" class="text-gray-400 text-sm hover:text-primary transition">Пользовательское соглашение</a>
+            <a href="#" class="text-gray-400 text-sm hover:text-primary transition">Карта сайта</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

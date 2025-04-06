@@ -1,0 +1,411 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Advantages Component renders with custom props correctly 1`] = `
+<div>
+  <section
+    class="bg-background py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <h2
+        class="text-2xl md:text-3xl font-semibold text-center mb-2"
+      >
+        Custom Title
+      </h2>
+      <p
+        class="text-dark text-center mb-8"
+      >
+        Custom Subtitle
+      </p>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-8"
+      >
+        <div
+          class="bg-white rounded-lg shadow-md p-6"
+        >
+          <div
+            class="flex items-start"
+          >
+            <div
+              class="text-primary mr-4 mt-1"
+            >
+              <div
+                data-testid="custom-icon"
+              />
+            </div>
+            <div>
+              <h3
+                class="text-xl font-semibold mb-3"
+              >
+                Custom Advantage
+              </h3>
+              <p
+                class="text-dark mb-4"
+              >
+                Custom description text
+              </p>
+              <ul
+                class="text-dark space-y-2"
+              >
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Feature 1
+                  </span>
+                </li>
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Feature 2
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8"
+      />
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Advantages Component renders with default props correctly 1`] = `
+<div>
+  <section
+    class="bg-background py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <h2
+        class="text-2xl md:text-3xl font-semibold text-center mb-2"
+      >
+        Наши преимущества
+      </h2>
+      <p
+        class="text-dark text-center mb-8"
+      >
+        Почему клиенты выбирают нас
+      </p>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-8"
+      >
+        <div
+          class="bg-white rounded-lg shadow-md p-6"
+        >
+          <div
+            class="flex items-start"
+          >
+            <div
+              class="text-primary mr-4 mt-1"
+            >
+              <div
+                class="h-10 w-10"
+                data-testid="FastDelivery-icon"
+              >
+                FastDelivery
+              </div>
+            </div>
+            <div>
+              <h3
+                class="text-xl font-semibold mb-3"
+              >
+                Экспресс-доставка в условиях санкций
+              </h3>
+              <p
+                class="text-dark mb-4"
+              >
+                В то время как официальные дилеры ушли с рынка, мы создали эффективные каналы доставки запчастей из Китая в короткие сроки.
+              </p>
+              <ul
+                class="text-dark space-y-2"
+              >
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    7-14 дней на доставку вместо 1-3 месяцев
+                  </span>
+                </li>
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Собственная сеть представителей в Китае
+                  </span>
+                </li>
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Прямые контакты с производителями
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-md p-6"
+        >
+          <div
+            class="flex items-start"
+          >
+            <div
+              class="text-primary mr-4 mt-1"
+            >
+              <div
+                class="h-10 w-10"
+                data-testid="Quality-icon"
+              >
+                Quality
+              </div>
+            </div>
+            <div>
+              <h3
+                class="text-xl font-semibold mb-3"
+              >
+                Высокое качество неоригинальных запчастей
+              </h3>
+              <p
+                class="text-dark mb-4"
+              >
+                Мы поставляем только качественные аналоги, которые сравнимы с оригинальными запчастями по надежности и долговечности.
+              </p>
+              <ul
+                class="text-dark space-y-2"
+              >
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Строгий контроль качества на производстве
+                  </span>
+                </li>
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Соответствие техническим спецификациям
+                  </span>
+                </li>
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Экономия до 30-40% от стоимости оригинала
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8"
+      >
+        <div
+          class="bg-white rounded-lg shadow-md p-6"
+        >
+          <div
+            class="flex items-start"
+          >
+            <div
+              class="text-primary mr-4 mt-1"
+            >
+              <div
+                class="h-10 w-10"
+                data-testid="Search-icon"
+              >
+                Search
+              </div>
+            </div>
+            <div>
+              <h3
+                class="text-xl font-semibold mb-3"
+              >
+                Поиск и доставка редких запчастей
+              </h3>
+              <p
+                class="text-dark mb-4"
+              >
+                Мы специализируемся на поиске редких и труднодоступных деталей, которые невозможно найти у других поставщиков.
+              </p>
+              <ul
+                class="text-dark space-y-2"
+              >
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Доступ к широкой сети производителей в Китае
+                  </span>
+                </li>
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Возможность изготовления под заказ
+                  </span>
+                </li>
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Решение нестандартных задач по поиску запчастей
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-lg shadow-md p-6"
+        >
+          <div
+            class="flex items-start"
+          >
+            <div
+              class="text-primary mr-4 mt-1"
+            >
+              <div
+                class="h-10 w-10"
+                data-testid="Price-icon"
+              >
+                Price
+              </div>
+            </div>
+            <div>
+              <h3
+                class="text-xl font-semibold mb-3"
+              >
+                Ценовое преимущество
+              </h3>
+              <p
+                class="text-dark mb-4"
+              >
+                Мы предлагаем конкурентные рыночные цены и оптимальное соотношение цена/качество для представленных запчастей.
+              </p>
+              <ul
+                class="text-dark space-y-2"
+              >
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Экономия от 20% до 40% по сравнению с оригиналом
+                  </span>
+                </li>
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Скидки для постоянных клиентов и при крупных заказах
+                  </span>
+                </li>
+                <li
+                  class="flex items-start"
+                >
+                  <div
+                    class="h-10 w-10"
+                    data-testid="Checkmark-icon"
+                  >
+                    Checkmark
+                  </div>
+                  <span>
+                    Прозрачное ценообразование
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

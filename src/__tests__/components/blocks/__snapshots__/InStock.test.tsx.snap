@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InStock Component renders with custom props correctly 1`] = `
+<div>
+  <section
+    class="bg-surface py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <h2
+        class="text-2xl md:text-3xl font-semibold text-center mb-3 text-white"
+      >
+        Custom InStock Heading
+      </h2>
+      <p
+        class="text-neutral text-center mb-10 max-w-2xl mx-auto"
+      >
+        Custom InStock Subheading
+      </p>
+      <div
+        class="overflow-x-auto"
+      >
+        <div
+          data-testid="in-stock-table"
+        >
+          <div>
+            Columns: 
+            1
+          </div>
+          <div>
+            Items: 
+            1
+          </div>
+          <div>
+            Order Button Text: 
+            Custom Order
+          </div>
+          <div>
+            <div
+              data-testid="stock-item-0"
+            >
+              <div>
+                Name: 
+                Custom Item
+              </div>
+              <div>
+                Part Number: 
+                CUSTOM-123
+              </div>
+              <div>
+                Compatibility: 
+                Custom Equipment
+              </div>
+              <div>
+                In Stock: 
+                available
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center mt-8"
+      >
+        <a
+          class="text-primary font-medium hover:text-primary-light transition-colors duration-300"
+          data-testid="next-link"
+          href="/custom-catalog"
+        >
+          Custom View All
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`InStock Component renders with default props correctly 1`] = `
+<div>
+  <section
+    class="bg-surface py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <h2
+        class="text-2xl md:text-3xl font-semibold text-center mb-3 text-white"
+      >
+        Components Library
+      </h2>
+      <p
+        class="text-neutral text-center mb-10 max-w-2xl mx-auto"
+      >
+        Ready-to-use components for your next project
+      </p>
+      <div
+        class="overflow-x-auto"
+      >
+        <div
+          data-testid="in-stock-table"
+        >
+          <div>
+            Columns: 
+            5
+          </div>
+          <div>
+            Items: 
+            4
+          </div>
+          <div>
+            Order Button Text: 
+            Use Component
+          </div>
+          <div>
+            <div
+              data-testid="stock-item-0"
+            >
+              <div>
+                Name: 
+                AI Form Builder
+              </div>
+              <div>
+                Part Number: 
+                v1.2.0
+              </div>
+              <div>
+                Compatibility: 
+                React, Next.js, Vue
+              </div>
+              <div>
+                In Stock: 
+                available
+              </div>
+            </div>
+            <div
+              data-testid="stock-item-1"
+            >
+              <div>
+                Name: 
+                Dynamic Hero Section
+              </div>
+              <div>
+                Part Number: 
+                v2.0.1
+              </div>
+              <div>
+                Compatibility: 
+                React, Next.js, Astro
+              </div>
+              <div>
+                In Stock: 
+                available
+              </div>
+            </div>
+            <div
+              data-testid="stock-item-2"
+            >
+              <div>
+                Name: 
+                Testimonial Carousel
+              </div>
+              <div>
+                Part Number: 
+                v1.5.2
+              </div>
+              <div>
+                Compatibility: 
+                React, Vue, Svelte
+              </div>
+              <div>
+                In Stock: 
+                available
+              </div>
+            </div>
+            <div
+              data-testid="stock-item-3"
+            >
+              <div>
+                Name: 
+                AI Content Generator
+              </div>
+              <div>
+                Part Number: 
+                v0.9.8
+              </div>
+              <div>
+                Compatibility: 
+                React, Next.js
+              </div>
+              <div>
+                In Stock: 
+                limited
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center mt-8"
+      >
+        <a
+          class="text-primary font-medium hover:text-primary-light transition-colors duration-300"
+          data-testid="next-link"
+          href="/components"
+        >
+          View all available components
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
+`;

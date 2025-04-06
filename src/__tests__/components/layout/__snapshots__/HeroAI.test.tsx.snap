@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroAI Component renders with default props 1`] = `
+<div>
+  <section
+    class="relative py-28 overflow-hidden w-full"
+  >
+    <div
+      class="absolute inset-0 z-0"
+    >
+      <img
+        alt="Hero background"
+        class="w-full h-full"
+        data-testid="mock-image"
+        src="/images/hero/hero-image.png"
+        style="object-fit: cover;"
+      />
+    </div>
+    <div
+      class="absolute inset-0 bg-gradient-to-r from-black via-background to-black z-0"
+      data-testid="hero-overlay"
+      style="opacity: 0.85;"
+    />
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8 relative z-10 w-full"
+    >
+      <div
+        class="flex flex-col items-center text-center max-w-5xl mx-auto"
+      >
+        <div
+          class="mb-6 animate-pulse"
+        >
+          <div
+            class="bg-primary px-5 py-2 rounded-full text-base font-semibold text-black inline-flex items-center shadow-glow"
+          >
+            <span>
+              New Framework
+            </span>
+          </div>
+        </div>
+        <h1
+          class="text-5xl md:text-6xl lg:text-7xl font-extrabold my-10 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent leading-tight tracking-tight"
+        >
+          Content-First Frontend Development with AI
+        </h1>
+        <p
+          class="text-xl md:text-2xl lg:text-3xl text-neutral mb-14 max-w-4xl font-light leading-relaxed"
+        >
+          AI-Mapping revolutionizes how websites are built by letting your content shape the interface, not the other way around.
+        </p>
+        <div
+          class="flex flex-col sm:flex-row gap-5 mt-4"
+        >
+          <button
+            class="bg-primary text-black font-bold text-lg px-8 py-4 rounded-lg hover:bg-primary-light transition-all duration-300 flex items-center shadow-md hover:shadow-lg"
+          >
+            Get Started
+             
+            <svg
+              class="lucide lucide-arrow-right ml-3 h-6 w-6"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 12h14"
+              />
+              <path
+                d="m12 5 7 7-7 7"
+              />
+            </svg>
+          </button>
+          <button
+            class="bg-transparent border-2 border-neutral-dark text-white font-bold text-lg px-8 py-4 rounded-lg hover:border-primary hover:text-primary transition-all duration-300 hover:shadow-glow"
+          >
+            View on GitHub
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="absolute bottom-0 left-1/2 -translate-x-1/2 w-2/3 h-2 bg-primary blur-xl"
+    />
+  </section>
+</div>
+`;

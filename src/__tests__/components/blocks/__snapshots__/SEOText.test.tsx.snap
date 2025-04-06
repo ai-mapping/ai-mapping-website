@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SEOText Component renders with custom props correctly 1`] = `
+<div>
+  <section
+    class="bg-background py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8 max-w-4xl"
+    >
+      <h2
+        class="text-2xl font-semibold mb-4"
+      >
+        Custom SEO Heading
+      </h2>
+      <div
+        class="prose prose-lg max-w-none text-dark mb-6"
+      >
+        <p>
+          Custom paragraph 1
+        </p>
+        <p>
+          Custom paragraph 2
+        </p>
+      </div>
+      <h3
+        class="text-xl font-semibold mb-3"
+      >
+        Custom Brand Section
+      </h3>
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-6"
+      >
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="/custom-link"
+        >
+          Custom Model 1
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="/custom-link-2"
+        >
+          Custom Model 2
+        </a>
+      </div>
+      <p
+        class="text-dark"
+      >
+        Custom footer text
+      </p>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`SEOText Component renders with default props correctly 1`] = `
+<div>
+  <section
+    class="bg-background py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8 max-w-4xl"
+    >
+      <h2
+        class="text-2xl font-semibold mb-4"
+      >
+        Запчасти для техники Caterpillar и KOMATSU
+      </h2>
+      <div
+        class="prose prose-lg max-w-none text-dark mb-6"
+      >
+        <p>
+          В условиях санкций и ухода официальных дилеров с российского рынка, поиск качественных запчастей для спецтехники Caterpillar и KOMATSU стал серьезной проблемой для многих компаний. Простой дорогостоящей техники приводит к значительным финансовым потерям и срывам сроков выполнения работ.
+        </p>
+        <p>
+          Наша компания предлагает эффективное решение этой проблемы – экспресс-доставку запчастей из Китая в сжатые сроки. Мы специализируемся на поставках качественных аналогов для всех моделей техники Caterpillar и KOMATSU, а также других ведущих производителей.
+        </p>
+        <p>
+          Благодаря налаженным связям с производителями в Китае и собственной логистической сети, мы обеспечиваем поставку запчастей в Москву и Московскую область в течение 7-14 дней, что в разы быстрее, чем у большинства конкурентов.
+        </p>
+      </div>
+      <h3
+        class="text-xl font-semibold mb-3"
+      >
+        Популярные модели техники Caterpillar:
+      </h3>
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-6"
+      >
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          CAT 320D
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          CAT 330D
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          CAT 336D
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          CAT 345D
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          CAT D6R
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          CAT D9R
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          CAT 950H
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          CAT 966H
+        </a>
+      </div>
+      <h3
+        class="text-xl font-semibold mb-3"
+      >
+        Популярные модели техники KOMATSU:
+      </h3>
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-6"
+      >
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          KOMATSU PC200
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          KOMATSU PC300
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          KOMATSU PC400
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          KOMATSU D65
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          KOMATSU D155
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          KOMATSU WA470
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          KOMATSU WA500
+        </a>
+        <a
+          class="text-accent hover:underline"
+          data-testid="next-link"
+          href="#"
+        >
+          KOMATSU HD785
+        </a>
+      </div>
+      <p
+        class="text-dark"
+      >
+        Мы работаем как с частными компаниями, так и с крупными строительными корпорациями в Москве и Московской области. При необходимости организуем доставку в другие регионы России.
+      </p>
+    </div>
+  </section>
+</div>
+`;

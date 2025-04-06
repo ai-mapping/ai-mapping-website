@@ -1,0 +1,8 @@
+{
+  "github": {
+    "enabled": true,
+    "silent": true
+  },
+  "buildCommand": "pnpm build",
+  "ignoreCommand": "if [[ $VERCEL_ENV != 'production' ]]; then exit 0; else echo 'Ignoring non-production environment'; exit 1; fi"
+}

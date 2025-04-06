@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CodeExample Block renders the component with default props 1`] = `
+<div>
+  <section
+    class="py-12 w-full overflow-hidden"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <div
+        class="max-w-3xl mx-auto text-center mb-16 w-full px-4"
+      >
+        <h2
+          class="text-3xl md:text-4xl font-bold mb-4"
+        >
+          See It In Action
+        </h2>
+        <p
+          class="text-neutral text-lg"
+        >
+          AI-Mapping makes it simple to transform content into dynamic, responsive components.
+        </p>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 max-w-5xl mx-auto w-full px-4"
+      >
+        <div
+          class="bg-neutral-light p-4 md:p-6 rounded-lg border border-neutral-dark w-full max-w-full"
+        >
+          <div
+            class="flex items-center mb-4"
+          >
+            <div
+              class="w-3 h-3 rounded-full bg-error mr-2"
+            />
+            <div
+              class="w-3 h-3 rounded-full bg-warning mr-2"
+            />
+            <div
+              class="w-3 h-3 rounded-full bg-success mr-2"
+            />
+            <div
+              class="text-neutral text-sm font-mono ml-2"
+            >
+              content.md
+            </div>
+          </div>
+          <div
+            class="font-mono text-sm text-white w-full"
+            style="max-height: 400px; overflow: auto;"
+          >
+            <pre
+              class="whitespace-pre-wrap"
+              style="overflow-wrap: break-word; word-break: break-word; max-width: 100%;"
+            >
+              # Enterprise Technology Case Study
+
+XYZ Corp reduced development time from **12 weeks to just 3 weeks** using AI-Mapping, while maintaining strict brand consistency across 47 landing pages.
+
+## Key Results:
+- 75% reduction in development time
+- 98% brand consistency score
+- 32% improvement in conversion rates
+
+The marketing team was able to launch new campaigns quickly without relying on developer resources for every content update.
+            </pre>
+          </div>
+        </div>
+        <div
+          class="bg-neutral-light p-4 md:p-6 rounded-lg border border-neutral-dark w-full max-w-full"
+        >
+          <div
+            class="flex items-center mb-4"
+          >
+            <div
+              class="w-3 h-3 rounded-full bg-error mr-2"
+            />
+            <div
+              class="w-3 h-3 rounded-full bg-warning mr-2"
+            />
+            <div
+              class="w-3 h-3 rounded-full bg-success mr-2"
+            />
+            <div
+              class="text-neutral text-sm font-mono ml-2"
+            >
+              component-mapping.tsx
+            </div>
+          </div>
+          <div
+            class="font-mono text-sm text-accent w-full"
+            style="max-height: 400px; overflow: auto;"
+          >
+            <pre
+              class="whitespace-pre"
+              style="overflow-wrap: break-word; word-break: break-word; max-width: 100%;"
+            >
+              // AI automatically maps content to appropriate components
+const contentToComponentMap = {
+  "# Enterprise Technology Case Study": {
+    component: "CaseStudyHeader",
+    props: {
+      industry: "Enterprise Technology",
+      featured: true
+    }
+  },
+
+  "XYZ Corp reduced...": {
+    component: "CaseStudyIntro",
+    props: {
+      highlights: ["12 weeks to 3 weeks", "brand consistency"]
+    }
+  },
+
+  "## Key Results:": {
+    component: "MetricsDisplay",
+    props: {
+      metrics: [
+        { value: "75%", label: "reduction in development time" },
+        { value: "98%", label: "brand consistency score" },
+        { value: "32%", label: "improvement in conversion rates" }
+      ]
+    }
+  }
+};
+
+// Components adapt to content automatically
+export default function CaseStudy({ content }) {
+  return (
+    &lt;AIComponentMapper
+      content={content}
+      mappingRules={defaultRules}
+      designSystem={companyTheme}
+    /&gt;
+  );
+}
+            </pre>
+          </div>
+        </div>
+      </div>
+      <div
+        class="mt-12 text-center w-full px-4"
+      >
+        <button
+          class="bg-primary text-black font-semibold px-6 py-2.5 rounded-lg hover:bg-primary-light transition-all duration-300 max-w-full break-words"
+        >
+          Try the interactive demo
+        </button>
+      </div>
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component renders the header with default props 1`] = `
+<div>
+  <header
+    class="fixed w-full top-0 z-50 bg-background border-b border-neutral-dark"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8 py-3 flex items-center justify-between"
+    >
+      <div
+        class="flex items-center h-4"
+      >
+        <a
+          class="self-start flex items-center relative -top-5 z-10 p-2"
+          data-testid="next-link"
+          href="/"
+        >
+          <div
+            class="absolute left-0 right-0 top-0 bottom-0 rounded-lg bg-black shadow-md"
+          />
+          <div
+            class="relative"
+          >
+            <img
+              alt="AI-Mapping - Intelligent Frontend Framework"
+              class="h-auto object-contain"
+              data-testid="image-ai-mapping-logo"
+              height="110"
+              src="/images/logo/ai-mapping-logo.png"
+              width="110"
+            />
+            <div
+              class="absolute inset-0 flex items-center justify-center bg-primary bg-opacity-10 text-primary font-bold text-xl rounded-lg opacity-0 fallback-logo"
+            >
+              AI
+            </div>
+          </div>
+        </a>
+        <a
+          class="flex items-center relative z-10 p-2"
+          data-testid="next-link"
+          href="/"
+        >
+          <div
+            class="relative"
+          >
+            <img
+              alt="AIMIFF"
+              class="h-auto object-contain"
+              data-testid="image-companyName-text"
+              height="40"
+              src="/images/logo/companyName-text.png"
+              width="180"
+            />
+            <div
+              class="absolute inset-0 flex items-center opacity-0 fallback-logo"
+            >
+              <span
+                class="font-semibold text-xl bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent"
+              >
+                AI-Mapping
+              </span>
+            </div>
+          </div>
+        </a>
+        <nav
+          class="hidden md:flex ml-10"
+        >
+          <ul
+            class="flex space-x-6"
+          >
+            <li>
+              <a
+                class="text-white hover:text-primary transition-colors duration-300"
+                data-testid="next-link"
+                href="/docs"
+              >
+                Documentation
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-white hover:text-primary transition-colors duration-300"
+                data-testid="next-link"
+                href="/components"
+              >
+                Components
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-white hover:text-primary transition-colors duration-300"
+                data-testid="next-link"
+                href="/examples"
+              >
+                Examples
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-white hover:text-primary transition-colors duration-300"
+                data-testid="next-link"
+                href="/pricing"
+              >
+                Pricing
+              </a>
+            </li>
+            <li>
+              <a
+                class="text-white hover:text-primary transition-colors duration-300"
+                data-testid="next-link"
+                href="/blog"
+              >
+                Blog
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div
+        data-testid="header-controls"
+      >
+        Header Controls
+      </div>
+    </div>
+  </header>
+</div>
+`;

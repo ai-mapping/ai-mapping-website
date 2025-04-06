@@ -1,0 +1,277 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HowWeWork Component renders with custom props correctly 1`] = `
+<div>
+  <section
+    class="bg-surface py-12"
+    id="how-we-work"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <style>
+        
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+      </style>
+      <h2
+        class="text-2xl md:text-3xl font-semibold text-center mb-10 text-white"
+      >
+        Custom How We Work Heading
+      </h2>
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10"
+      >
+        <div
+          aria-pressed="true"
+          class="cursor-pointer transition-all duration-300 border-2 border-primary scale-105 shadow-lg bg-primary/10 overflow-hidden rounded-lg"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="p-0"
+          >
+            <img
+              alt="Custom Step 1"
+              class="w-full h-auto"
+              data-testid="next-image-Custom Step 1"
+              height="400"
+              src="/custom-step1.png"
+              width="300"
+            />
+          </div>
+          <div
+            class="p-4 bg-neutral-light h-24 border-t border-neutral-dark"
+          >
+            <h3
+              class="font-medium text-center text-white"
+            >
+              Custom Step 1
+            </h3>
+          </div>
+        </div>
+        <div
+          aria-pressed="false"
+          class="cursor-pointer transition-all duration-300 border border-neutral-dark hover:border-primary hover:shadow-md bg-neutral-light/20 overflow-hidden rounded-lg"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="p-0"
+          >
+            <img
+              alt="Custom Step 2"
+              class="w-full h-auto"
+              data-testid="next-image-Custom Step 2"
+              height="400"
+              src="/custom-step2.png"
+              width="300"
+            />
+          </div>
+          <div
+            class="p-4 bg-neutral-light h-24 border-t border-neutral-dark"
+          >
+            <h3
+              class="font-medium text-center text-white"
+            >
+              Custom Step 2
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-neutral-light rounded-lg p-8 transition-all duration-300 border-2 border-primary shadow-lg"
+        style="animation: fadeIn 0.5s ease-in-out;"
+      >
+        <h3
+          class="text-xl font-semibold mb-4 text-primary"
+        >
+          Custom Step 1
+        </h3>
+        <p
+          class="text-neutral"
+        >
+          Custom Step 1 Description
+        </p>
+        <div
+          class="text-right mt-4 text-sm text-primary"
+        >
+          Step 
+          1
+           of 
+          2
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`HowWeWork Component renders with default props correctly 1`] = `
+<div>
+  <section
+    class="bg-surface py-12"
+    id="how-we-work"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <style>
+        
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+      </style>
+      <h2
+        class="text-2xl md:text-3xl font-semibold text-center mb-10 text-white"
+      >
+        How AI-Mapping Works
+      </h2>
+      <div
+        class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-10"
+      >
+        <div
+          aria-pressed="true"
+          class="cursor-pointer transition-all duration-300 border-2 border-primary scale-105 shadow-lg bg-primary/10 overflow-hidden rounded-lg"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="p-0"
+          >
+            <img
+              alt="Step 1: Write Content in Markdown"
+              class="w-full h-auto"
+              data-testid="next-image-Step 1: Write Content in Markdown"
+              height="400"
+              src="/step4.png"
+              width="300"
+            />
+          </div>
+          <div
+            class="p-4 bg-neutral-light h-24 border-t border-neutral-dark"
+          >
+            <h3
+              class="font-medium text-center text-white"
+            >
+              Step 1: Write Content in Markdown
+            </h3>
+          </div>
+        </div>
+        <div
+          aria-pressed="false"
+          class="cursor-pointer transition-all duration-300 border border-neutral-dark hover:border-primary hover:shadow-md bg-neutral-light/20 overflow-hidden rounded-lg"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="p-0"
+          >
+            <img
+              alt="Step 2: AI Analyzes Your Content"
+              class="w-full h-auto"
+              data-testid="next-image-Step 2: AI Analyzes Your Content"
+              height="400"
+              src="/step4.png"
+              width="300"
+            />
+          </div>
+          <div
+            class="p-4 bg-neutral-light h-24 border-t border-neutral-dark"
+          >
+            <h3
+              class="font-medium text-center text-white"
+            >
+              Step 2: AI Analyzes Your Content
+            </h3>
+          </div>
+        </div>
+        <div
+          aria-pressed="false"
+          class="cursor-pointer transition-all duration-300 border border-neutral-dark hover:border-primary hover:shadow-md bg-neutral-light/20 overflow-hidden rounded-lg"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="p-0"
+          >
+            <img
+              alt="Step 3: Components Are Generated"
+              class="w-full h-auto"
+              data-testid="next-image-Step 3: Components Are Generated"
+              height="400"
+              src="/step4.png"
+              width="300"
+            />
+          </div>
+          <div
+            class="p-4 bg-neutral-light h-24 border-t border-neutral-dark"
+          >
+            <h3
+              class="font-medium text-center text-white"
+            >
+              Step 3: Components Are Generated
+            </h3>
+          </div>
+        </div>
+        <div
+          aria-pressed="false"
+          class="cursor-pointer transition-all duration-300 border border-neutral-dark hover:border-primary hover:shadow-md bg-neutral-light/20 overflow-hidden rounded-lg"
+          role="button"
+          tabindex="0"
+        >
+          <div
+            class="p-0"
+          >
+            <img
+              alt="Step 4: Review and Refine"
+              class="w-full h-auto"
+              data-testid="next-image-Step 4: Review and Refine"
+              height="400"
+              src="/step4.png"
+              width="300"
+            />
+          </div>
+          <div
+            class="p-4 bg-neutral-light h-24 border-t border-neutral-dark"
+          >
+            <h3
+              class="font-medium text-center text-white"
+            >
+              Step 4: Review and Refine
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-neutral-light rounded-lg p-8 transition-all duration-300 border-2 border-primary shadow-lg"
+        style="animation: fadeIn 0.5s ease-in-out;"
+      >
+        <h3
+          class="text-xl font-semibold mb-4 text-primary"
+        >
+          Step 1: Write Content in Markdown
+        </h3>
+        <p
+          class="text-neutral"
+        >
+          Create your content in markdown files with simple style annotations. No need to worry about component structure or technical implementation details - just focus on your message.
+        </p>
+        <div
+          class="text-right mt-4 text-sm text-primary"
+        >
+          Step 
+          1
+           of 
+          4
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

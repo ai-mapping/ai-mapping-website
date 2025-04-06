@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MarkdownContent Component renders with custom content correctly 1`] = `
+<div>
+  <section
+    class="py-6"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8 max-w-4xl"
+    >
+      <div
+        class="bg-surface p-6 rounded-lg shadow-lg border border-neutral-dark"
+      >
+        <div
+          class="prose prose-lg max-w-none text-white"
+        >
+          <div
+            data-testid="markdown"
+          >
+            ### Custom Markdown Content
+
+This is a test.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`MarkdownContent Component renders with default props correctly 1`] = `
+<div>
+  <section
+    class="bg-background py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8 max-w-4xl"
+    >
+      <div
+        class="bg-surface p-6 rounded-lg shadow-lg border border-neutral-dark"
+      >
+        <div
+          class="prose prose-lg max-w-none text-white"
+        >
+          <div
+            data-testid="markdown"
+          >
+            Test content
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

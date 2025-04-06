@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Trust Component renders with custom props correctly 1`] = `
+<div>
+  <section
+    class="bg-surface py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <div
+        class="bg-background rounded-lg p-8 md:p-12 border border-neutral-dark shadow-lg"
+      >
+        <h2
+          class="text-2xl md:text-3xl font-semibold text-center mb-10 text-white"
+        >
+          Custom Trust Heading
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center"
+        >
+          <div
+            class="bg-surface p-6 rounded-lg shadow-md border border-neutral-dark hover:shadow-lg transition-shadow duration-300"
+          >
+            <div
+              class="text-4xl font-bold text-primary mb-3"
+            >
+              Custom Value
+            </div>
+            <p
+              class="text-neutral"
+            >
+              Custom Description
+            </p>
+          </div>
+        </div>
+        <div
+          class="mt-12"
+        >
+          <h3
+            class="text-xl font-semibold text-center mb-6 text-primary"
+          >
+            Custom Partners Title
+          </h3>
+          <div
+            class="flex flex-wrap justify-center items-center gap-8"
+          >
+            <div
+              class="w-28 h-20 bg-surface rounded-lg border border-neutral-dark shadow-md flex items-center justify-center hover:shadow-md transition-shadow duration-300"
+            >
+              <span
+                class="font-medium text-sm text-neutral"
+              >
+                Custom Partner
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`Trust Component renders with default props correctly 1`] = `
+<div>
+  <section
+    class="bg-surface py-12"
+  >
+    <div
+      class="container mx-auto px-4 md:px-6 lg:px-8"
+    >
+      <div
+        class="bg-background rounded-lg p-8 md:p-12 border border-neutral-dark shadow-lg"
+      >
+        <h2
+          class="text-2xl md:text-3xl font-semibold text-center mb-10 text-white"
+        >
+          Нам доверяют
+        </h2>
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center"
+        >
+          <div
+            class="bg-surface p-6 rounded-lg shadow-md border border-neutral-dark hover:shadow-lg transition-shadow duration-300"
+          >
+            <div
+              class="text-4xl font-bold text-primary mb-3"
+            >
+              5+ лет
+            </div>
+            <p
+              class="text-neutral"
+            >
+              опыта поставок запчастей из Китая
+            </p>
+          </div>
+          <div
+            class="bg-surface p-6 rounded-lg shadow-md border border-neutral-dark hover:shadow-lg transition-shadow duration-300"
+          >
+            <div
+              class="text-4xl font-bold text-primary mb-3"
+            >
+              500+
+            </div>
+            <p
+              class="text-neutral"
+            >
+              успешных поставок запчастей
+            </p>
+          </div>
+          <div
+            class="bg-surface p-6 rounded-lg shadow-md border border-neutral-dark hover:shadow-lg transition-shadow duration-300"
+          >
+            <div
+              class="text-4xl font-bold text-primary mb-3"
+            >
+              98%
+            </div>
+            <p
+              class="text-neutral"
+            >
+              довольных клиентов
+            </p>
+          </div>
+        </div>
+        <div
+          class="mt-12"
+        >
+          <h3
+            class="text-xl font-semibold text-center mb-6 text-primary"
+          >
+            Наши партнеры в Китае
+          </h3>
+          <div
+            class="flex flex-wrap justify-center items-center gap-8"
+          >
+            <div
+              class="w-28 h-20 bg-surface rounded-lg border border-neutral-dark shadow-md flex items-center justify-center hover:shadow-md transition-shadow duration-300"
+            >
+              <span
+                class="font-medium text-sm text-neutral"
+              >
+                Партнер 1
+              </span>
+            </div>
+            <div
+              class="w-28 h-20 bg-surface rounded-lg border border-neutral-dark shadow-md flex items-center justify-center hover:shadow-md transition-shadow duration-300"
+            >
+              <span
+                class="font-medium text-sm text-neutral"
+              >
+                Партнер 2
+              </span>
+            </div>
+            <div
+              class="w-28 h-20 bg-surface rounded-lg border border-neutral-dark shadow-md flex items-center justify-center hover:shadow-md transition-shadow duration-300"
+            >
+              <span
+                class="font-medium text-sm text-neutral"
+              >
+                Партнер 3
+              </span>
+            </div>
+            <div
+              class="w-28 h-20 bg-surface rounded-lg border border-neutral-dark shadow-md flex items-center justify-center hover:shadow-md transition-shadow duration-300"
+            >
+              <span
+                class="font-medium text-sm text-neutral"
+              >
+                Партнер 4
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;
