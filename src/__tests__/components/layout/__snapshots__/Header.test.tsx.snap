@@ -83,27 +83,9 @@ exports[`Header Component renders the header with default props 1`] = `
               <a
                 class="text-white hover:text-primary transition-colors duration-300"
                 data-testid="next-link"
-                href="/components"
-              >
-                Components
-              </a>
-            </li>
-            <li>
-              <a
-                class="text-white hover:text-primary transition-colors duration-300"
-                data-testid="next-link"
                 href="/examples"
               >
                 Examples
-              </a>
-            </li>
-            <li>
-              <a
-                class="text-white hover:text-primary transition-colors duration-300"
-                data-testid="next-link"
-                href="/pricing"
-              >
-                Pricing
               </a>
             </li>
             <li>

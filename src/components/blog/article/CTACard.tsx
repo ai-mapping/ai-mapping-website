@@ -10,7 +10,7 @@ const CTACard = () => {
           </h3>
           
           <p className="text-neutral mb-6 max-w-2xl mx-auto">
-            We're building an open-source framework to transform content-to-component mapping.
+            We&apos;re building an open-source framework to transform content-to-component mapping.
             Contribute your expertise, ideas, and feedback.
           </p>
           

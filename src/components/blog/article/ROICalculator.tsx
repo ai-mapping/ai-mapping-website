@@ -32,7 +32,7 @@ const ROICalculator = () => {
   
   // Calculate ROI whenever form data changes
   useEffect(() => {
-    const { teamSize, hourlyRate, pagesPerMonth, complexityLevel } = formData;
+    const { hourlyRate, pagesPerMonth, complexityLevel } = formData;
     
     // Traditional approach hours per page (based on complexity)
     const complexityMultiplier = getComplexityMultiplier(complexityLevel);

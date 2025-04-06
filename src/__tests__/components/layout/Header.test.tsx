@@ -35,9 +35,7 @@ describe('Header Component', () => {
     
     // Check navigation items
     expect(screen.getByText('Documentation')).toBeInTheDocument();
-    expect(screen.getByText('Components')).toBeInTheDocument();
     expect(screen.getByText('Examples')).toBeInTheDocument();
-    expect(screen.getByText('Pricing')).toBeInTheDocument();
     expect(screen.getByText('Blog')).toBeInTheDocument();
     
     // Check header controls

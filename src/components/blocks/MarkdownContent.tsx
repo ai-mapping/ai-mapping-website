@@ -89,12 +89,13 @@ const MarkdownContent = ({
           a: ({ node, ...props }) => (
             <a className="text-accent hover:text-accent-2 transition-colors duration-300 font-medium" {...props} />
           ),
-          // eslint-disable-next-line @typescript-eslint/no-unused-vars
-          code: ({ node, inline, ...props }) => (
-            inline
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          code: (props: any) => {
+            const { inline } = props;
+            return inline
               ? <code className="bg-neutral-light px-1.5 py-0.5 rounded text-accent font-mono" {...props} />
               : <code className="block p-4 bg-neutral-light rounded-lg overflow-x-auto my-6 font-mono text-sm" {...props} />
-          ),
+          },
         }}
       >
         {content}

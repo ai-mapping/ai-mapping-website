@@ -24,7 +24,7 @@ const BlogGrid = ({
       </p>
       <div className="text-center mb-12">
         <span className="text-primary text-sm bg-surface px-4 py-2 rounded-lg inline-block">
-          Only the "AI Mapping: From Content to Components" article is currently available
+          Only the &quot;AI Mapping: From Content to Components&quot; article is currently available
         </span>
       </div>
 

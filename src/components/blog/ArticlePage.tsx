@@ -1,12 +1,10 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
 import { BlogPost } from '@/types/blog';
 import { formatDate } from '@/lib/utils';
 import HeroWithButton from '@/components/layout/HeroWithButton';
 import Section from '@/components/layout/Section';
-import { cn } from '@/lib/utils';
 
 // Blog article components
 import WorkflowInfographic from './article/WorkflowInfographic';
@@ -29,7 +27,7 @@ interface ArticlePageProps {
   meta?: BlogPost;
 }
 
-const ArticlePage: React.FC<ArticlePageProps> = ({ slug, meta }) => {
+const ArticlePage: React.FC<ArticlePageProps> = ({ meta }) => {
   // Since we cannot dynamically load markdown content at build time in this setup,
   // we'll use hardcoded sections for the demo
   // In a real implementation, you would fetch this from an API or CMS
@@ -55,35 +53,7 @@ const ArticlePage: React.FC<ArticlePageProps> = ({ slug, meta }) => {
   ]);
   
 
-  // Function to render a component based on its number in the TODO sequence
-  const renderComponent = (index: number) => {
-    switch (index) {
-      case 1:
-        return <WorkflowInfographic />;
-      case 2:
-        return <PainPointSelector />;
-      case 3:
-        return <ComponentCapabilityViz />;
-      case 4:
-        return <TechnicalDiagram />;
-      case 5:
-        return <ApproachSelector />;
-      case 6:
-        return <SideBySideComparison />;
-      case 7:
-        return <ArchitectureDiagram />;
-      case 8:
-        return <DevLifeComparison />;
-      case 9:
-        return <ROICalculator />;
-      case 10:
-        return <CTACard />;
-      case 11:
-        return <FinalCTA />;
-      default:
-        return null;
-    }
-  };
+  // We directly use components in the JSX below instead of dynamic rendering
 
   return (
     <>

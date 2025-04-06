@@ -18,7 +18,7 @@ const DevLifeComparison = () => {
               <div className="text-neutral text-xs mb-2">9:00 AM</div>
               <div className="text-white font-medium mb-1">Morning Stand-up</div>
               <p className="text-sm text-neutral">
-                "I'll continue working on those three new component variations for the marketing page."
+                &quot;I&apos;ll continue working on those three new component variations for the marketing page.&quot;
               </p>
             </div>
             
@@ -34,7 +34,7 @@ const DevLifeComparison = () => {
               <div className="text-neutral text-xs mb-2">1:15 PM</div>
               <div className="text-white font-medium mb-1">Urgent Request</div>
               <p className="text-sm text-neutral">
-                "Marketing needs the hero section to show bullet points instead of paragraphs. Need to create a new variant."
+                &quot;Marketing needs the hero section to show bullet points instead of paragraphs. Need to create a new variant.&quot;
               </p>
             </div>
             
@@ -65,7 +65,7 @@ const DevLifeComparison = () => {
               <div className="text-neutral text-xs mb-2">9:00 AM</div>
               <div className="text-primary font-medium mb-1">Morning Stand-up</div>
               <p className="text-sm text-neutral">
-                "I'll finish the component capability definitions today and start working on the new authentication feature."
+                &quot;I&apos;ll finish the component capability definitions today and start working on the new authentication feature.&quot;
               </p>
             </div>
             
@@ -81,7 +81,7 @@ const DevLifeComparison = () => {
               <div className="text-neutral text-xs mb-2">1:15 PM</div>
               <div className="text-primary font-medium mb-1">Feature Development</div>
               <p className="text-sm text-neutral">
-                Implementing the new authentication system that integrates with the company's single sign-on service.
+                Implementing the new authentication system that integrates with the company&apos;s single sign-on service.
               </p>
             </div>
             

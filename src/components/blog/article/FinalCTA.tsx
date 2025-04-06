@@ -11,7 +11,7 @@ const FinalCTA = () => {
           </h3>
           
           <p className="text-white text-lg mb-8 max-w-2xl mx-auto">
-            AI Mapping is more than a framework—it's a fundamental shift in how we approach web development. 
+            AI Mapping is more than a framework—it&apos;s a fundamental shift in how we approach web development. 
             Be part of shaping the future where content creators and developers work together harmoniously.
           </p>
           
