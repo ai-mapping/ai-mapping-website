@@ -137,101 +137,111 @@ const ArticlePage: React.FC<ArticlePageProps> = ({ slug, meta }) => {
           {/* Article content with custom components interspersed */}
           <div className="prose prose-lg max-w-none text-white">
             {processedContent[0] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[0].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[0]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <WorkflowInfographic />
             
             {processedContent[1] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[1].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[1]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <PainPointSelector />
             
             {processedContent[2] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[2].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[2]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <ComponentCapabilityViz />
             
             {processedContent[3] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[3].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[3]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <TechnicalDiagram />
             
             {processedContent[4] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[4].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[4]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <ApproachSelector />
             
             {processedContent[5] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[5].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[5]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <SideBySideComparison />
             
             {processedContent[6] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[6].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[6]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <ArchitectureDiagram />
             
             {processedContent[7] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[7].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[7]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <DevLifeComparison />
             
             {processedContent[8] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[8].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[8]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <ROICalculator />
             
             {processedContent[9] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[9].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[9]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <div className="mx-auto mt-8 mb-12 text-white">
@@ -292,21 +302,23 @@ const ArticlePage: React.FC<ArticlePageProps> = ({ slug, meta }) => {
             </div>
             
             {processedContent[10] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[10].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[10]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <CTACard />
             
             {processedContent[11] && (
-              <div className="mx-auto mt-8 text-white" dangerouslySetInnerHTML={{ 
-                __html: processedContent[11].replace(/```([^`]+)```/g, (_: string, code: string) => 
-                  `<pre class="bg-neutral-light text-white p-4 rounded-lg overflow-x-auto my-6 font-mono text-sm">${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>`
-                ) 
-              }} />
+              <MarkdownContent 
+                content={processedContent[11]} 
+                background="none" 
+                paddingY="none" 
+                withContainer={false}
+              />
             )}
             
             <FinalCTA />
