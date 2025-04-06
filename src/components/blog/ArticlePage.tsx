@@ -94,7 +94,7 @@ const ArticlePage: React.FC<ArticlePageProps> = ({ slug, meta }) => {
       />
 
       <Section background="surface" paddingY="lg" containerWidth="medium">
-        <article className="bg-surface p-6 rounded-lg border border-neutral-dark">
+        <article className="bg-surface p-6 md:p-8 rounded-lg border border-neutral-dark max-w-4xl mx-auto">
           {/* Article meta */}
           <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-8 pb-6 border-b border-neutral-dark">
             <div className="flex items-center mb-4 sm:mb-0">

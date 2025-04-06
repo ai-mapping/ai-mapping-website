@@ -9,7 +9,7 @@ export const blogPosts: BlogPost[] = [
     publishedAt: '2025-04-19',
     author: {
       id: '1',
-      name: 'Alex Chen',
+      name: 'Oleg Proskurin',
       title: 'Lead Developer'
     },
     coverImage: {
