@@ -64,11 +64,11 @@ const BlogCard = ({ post }: BlogCardProps) => {
           )}
         </div>
         
-        <div className="block group cursor-pointer">
+        <Link href={post.slug === 'ai-mapping-from-content-to-components' ? `/blog/${post.slug}` : '#'} className={`block group cursor-pointer ${post.slug !== 'ai-mapping-from-content-to-components' ? 'pointer-events-none' : ''}`}>
           <h3 className="font-semibold text-xl mb-3 text-white group-hover:text-primary transition-colors duration-200">
             {post.title}
           </h3>
-        </div>
+        </Link>
         
         <p className="text-neutral text-sm mb-4 flex-grow">
           {post.excerpt}

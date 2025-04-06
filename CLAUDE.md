@@ -103,6 +103,31 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Follow existing patterns for new code
 - Use explicit typing with interface/type exports
 
+## Blog Article Pages
+
+When creating blog article pages from markdown content:
+
+1. **Directory Structure**:
+   - Place markdown content in `src/content/blog/`
+   - Register the article in `src/content/blog/posts.ts` with proper metadata
+   - Create a route in `src/app/blog/[slug]/page.tsx` to handle the article route
+
+2. **Component Structure**:
+   - Use `ArticlePage` component from `src/components/blog/ArticlePage.tsx` as the main wrapper
+   - For article-specific components, create them in `src/components/blog/article/`
+   - Each article page should use the proper metadata for SEO
+
+3. **Custom Components in Articles**:
+   - When articles contain `// TODO: @Claude` comments, these indicate places to insert custom interactive components
+   - Implement these components based on the requirements in the comment
+   - Follow the style guide when creating these components
+   - Register all custom components in the article page file
+
+4. **Markdown Processing**:
+   - The article content should be processed to handle code blocks, headings, and other markdown features
+   - Use proper styling for code blocks, including syntax highlighting when appropriate
+   - For tables, use the styled table component with proper dark theme styling
+
 ## Components Organization
 - blocks/: Page sections (Advantages, FAQ, HowWeWork) for content blocks
 - forms/: Form components and utilities for data submission and validation

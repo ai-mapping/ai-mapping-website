@@ -2,6 +2,26 @@ import { BlogPost } from '@/types/blog';
 
 export const blogPosts: BlogPost[] = [
   {
+    id: '0',
+    slug: 'ai-mapping-from-content-to-components',
+    title: 'AI Mapping: From Content to Components',
+    excerpt: 'Discover a paradigm shift in web development that prioritizes content creation without technical constraints, enabling faster and more flexible website building.',
+    publishedAt: '2025-04-19',
+    author: {
+      id: '1',
+      name: 'Alex Chen',
+      title: 'Lead Developer'
+    },
+    coverImage: {
+      src: '/images/placeholders/code-bg.jpg',
+      alt: 'AI mapping content to components',
+      width: 1200,
+      height: 630
+    },
+    tags: ['AI Mapping', 'Content-First', 'Web Development'],
+    readingTime: '15 min'
+  },
+  {
     id: '1',
     slug: 'getting-started-with-ai-mapping',
     title: 'Getting Started with AI Mapping for Web Development',
